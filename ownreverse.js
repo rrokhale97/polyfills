@@ -8,5 +8,9 @@ Array.prototype.ownReverse = function () {
   return reverse;
 };
 
+let arr = [26, 04, 1997, "saturday", 8, 15];
 console.log("Polyfill for reverse", arr.ownReverse());
+// [15, 8, "saturday", 1997, 4, 26]
+
 console.log("Inbuilt reverse method", arr.reverse());
+// [15, 8, "saturday", 1997, 4, 26]
